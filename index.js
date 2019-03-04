@@ -16,7 +16,7 @@ function currentLine(arr) {
 
   if (arr.length > 1) {
     for (let i = 0; i < arr.length; i++) {
-      x += `${i}. ${arr[i]},`
+      x += `${i+1}. ${arr[i]},`
     }
   }
 
