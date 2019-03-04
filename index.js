@@ -12,15 +12,15 @@ function nowServing(arr) {
 }
 
 function currentLine(arr) {
-  let x = 'The line is currently';
-  
+  let x = 'The line is currently: ';
+
   if (arr.length > 1) {
     for (let i = 0; i < arr.length; i++) {
-      x += 
-    }  
+      x += `${i}. ${arr[i]},`
+    }
   }
 
-  
+
   if (arr.length === 0) {
     x = `The line is currently empty.`;
   }
