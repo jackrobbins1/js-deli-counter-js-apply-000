@@ -4,11 +4,15 @@ function takeANumber(arr, name){
 }
 
 function nowServing(arr) {
-  arr.shift();
-
   if (arr === []) {
     return `There is nobody waiting to be served!`;
+  } else {
+    return arr.shift();
   }
+
+
+
+
 }
 
 function currentLine(arr) {
