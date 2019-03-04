@@ -10,9 +10,6 @@ function nowServing(arr) {
     return arr.shift();
   }
 
-
-
-
 }
 
 function currentLine(arr) {
