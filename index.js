@@ -13,11 +13,11 @@ function nowServing(arr) {
 }
 
 function currentLine(arr) {
-  let x = 'The line is currently: ';
+  let x = 'The line is currently:';
 
   if (arr.length > 1) {
     for (let i = 0; i < arr.length; i++) {
-      x += `${i+1}. ${arr[i]},`
+      x += ` ${i+1}. ${arr[i]},`
     }
   }
 
