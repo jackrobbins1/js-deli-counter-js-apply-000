@@ -10,3 +10,20 @@ function nowServing(arr) {
     return `There is nobody waiting to be served!`;
   }
 }
+
+function currentLine(arr) {
+  let x = 'The line is currently';
+  
+  if (arr.length > 1) {
+    for (let i = 0; i < arr.length; i++) {
+      x += 
+    }  
+  }
+
+  
+  if (arr.length === 0) {
+    x = `The line is currently empty.`;
+  }
+
+  return x;
+}
