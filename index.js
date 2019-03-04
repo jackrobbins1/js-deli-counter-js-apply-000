@@ -20,6 +20,7 @@ function currentLine(arr) {
     for (let i = 0; i < arr.length; i++) {
       x += ` ${i+1}. ${arr[i]},`
     }
+    x.slice(0, -1);
   }
 
 
